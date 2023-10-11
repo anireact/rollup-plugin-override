@@ -10,7 +10,7 @@ import GENERATOR, { GeneratorOptions } from '@babel/generator';
 const generate = GENERATOR.default;
 
 const NAME = 'override';
-const PATH = '/@miyaokamarina/rollup-plugin-' + NAME;
+const PATH = '/@anireact/rollup-plugin-' + NAME;
 
 export interface OverrideOptions {
     /** Only process these files. */

@@ -6,15 +6,15 @@
 ## Usage
 
 ```bash
-yarn add -D @miyaokamarina/rollup-plugin-override
+yarn add -D @anireact/rollup-plugin-override
 ```
 
 ```bash
-npm install --save-dev @miyaokamarina/rollup-plugin-override
+npm install --save-dev @anireact/rollup-plugin-override
 ```
 
 ```javascript
-import override from '@miyaokamarina/rollup-plugin-override';
+import override from '@anireact/rollup-plugin-override';
 
 export default {
     plugins: [
