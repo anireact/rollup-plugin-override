@@ -1,6 +1,6 @@
 {
     "name": "@anireact/rollup-plugin-override",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Robust compile-time expression substitution.",
     "repository": "https://github.com/anireact/rollup-plugin-override",
     "author": "Yuri Zemskov <miyaokamarina@gmail.com> (https://twitter.com/miyaokamarina)",
@@ -21,6 +21,7 @@
         "test": "yarn make && node ./tmp/test.mjs",
         "prepack": "yarn clean && yarn test"
     },
+    "type": "module",
     "exports": {
         ".": {
             "types": "./out/index.d.mts",
