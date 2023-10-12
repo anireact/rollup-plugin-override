@@ -1,6 +1,6 @@
 {
     "name": "@anireact/rollup-plugin-override",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Robust compile-time expression substitution.",
     "repository": "https://github.com/anireact/rollup-plugin-override",
     "author": "Yuri Zemskov <miyaokamarina@gmail.com> (https://twitter.com/miyaokamarina)",
@@ -40,14 +40,14 @@
         "@anireact/typescript-config": "^1.0.0",
         "@types/babel__core": "^7.20.2",
         "@types/babel__generator": "^7.6.5",
-        "@types/node": "^20.8.3",
+        "@types/node": "^20.8.4",
         "prettier": "^3.0.3",
         "rollup": "^4.0.2",
         "source-map": "^0.7.4",
         "typescript": "^5.2.2"
     },
     "dependencies": {
-        "@babel/core": "^7.23.0",
+        "@babel/core": "^7.23.2",
         "@babel/generator": "^7.23.0",
         "@babel/parser": "^7.23.0",
         "@rollup/pluginutils": "^5.0.5"

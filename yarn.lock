@@ -20,13 +20,13 @@ __metadata:
   resolution: "@anireact/rollup-plugin-override@workspace:."
   dependencies:
     "@anireact/typescript-config": ^1.0.0
-    "@babel/core": ^7.23.0
+    "@babel/core": ^7.23.2
     "@babel/generator": ^7.23.0
     "@babel/parser": ^7.23.0
     "@rollup/pluginutils": ^5.0.5
     "@types/babel__core": ^7.20.2
     "@types/babel__generator": ^7.6.5
-    "@types/node": ^20.8.3
+    "@types/node": ^20.8.4
     prettier: ^3.0.3
     rollup: ^4.0.2
     source-map: ^0.7.4
@@ -63,26 +63,26 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:^7.23.0":
-  version: 7.23.0
-  resolution: "@babel/core@npm:7.23.0"
+"@babel/core@npm:^7.23.2":
+  version: 7.23.2
+  resolution: "@babel/core@npm:7.23.2"
   dependencies:
     "@ampproject/remapping": ^2.2.0
     "@babel/code-frame": ^7.22.13
     "@babel/generator": ^7.23.0
     "@babel/helper-compilation-targets": ^7.22.15
     "@babel/helper-module-transforms": ^7.23.0
-    "@babel/helpers": ^7.23.0
+    "@babel/helpers": ^7.23.2
     "@babel/parser": ^7.23.0
     "@babel/template": ^7.22.15
-    "@babel/traverse": ^7.23.0
+    "@babel/traverse": ^7.23.2
     "@babel/types": ^7.23.0
     convert-source-map: ^2.0.0
     debug: ^4.1.0
     gensync: ^1.0.0-beta.2
     json5: ^2.2.3
     semver: ^6.3.1
-  checksum: cebd9b48dbc970a7548522f207f245c69567e5ea17ebb1a4e4de563823cf20a01177fe8d2fe19b6e1461361f92fa169fd0b29f8ee9d44eeec84842be1feee5f2
+  checksum: 003897718ded16f3b75632d63cd49486bf67ff206cc7ebd1a10d49e2456f8d45740910d5ec7e42e3faf0deec7a2e96b1a02e766d19a67a8309053f0d4e57c0fe
   languageName: node
   linkType: hard
 
@@ -200,14 +200,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/helpers@npm:^7.23.0":
-  version: 7.23.1
-  resolution: "@babel/helpers@npm:7.23.1"
+"@babel/helpers@npm:^7.23.2":
+  version: 7.23.2
+  resolution: "@babel/helpers@npm:7.23.2"
   dependencies:
     "@babel/template": ^7.22.15
-    "@babel/traverse": ^7.23.0
+    "@babel/traverse": ^7.23.2
     "@babel/types": ^7.23.0
-  checksum: acfc345102045c24ea2a4d60e00dcf8220e215af3add4520e2167700661338e6a80bd56baf44bb764af05ec6621101c9afc315dc107e18c61fa6da8acbdbb893
+  checksum: aaf4828df75ec460eaa70e5c9f66e6dadc28dae3728ddb7f6c13187dbf38030e142194b83d81aa8a31bbc35a5529a5d7d3f3cf59d5d0b595f5dd7f9d8f1ced8e
   languageName: node
   linkType: hard
 
@@ -242,9 +242,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/traverse@npm:^7.23.0":
-  version: 7.23.0
-  resolution: "@babel/traverse@npm:7.23.0"
+"@babel/traverse@npm:^7.23.2":
+  version: 7.23.2
+  resolution: "@babel/traverse@npm:7.23.2"
   dependencies:
     "@babel/code-frame": ^7.22.13
     "@babel/generator": ^7.23.0
@@ -256,7 +256,7 @@ __metadata:
     "@babel/types": ^7.23.0
     debug: ^4.1.0
     globals: ^11.1.0
-  checksum: 0b17fae53269e1af2cd3edba00892bc2975ad5df9eea7b84815dab07dfec2928c451066d51bc65b4be61d8499e77db7e547ce69ef2a7b0eca3f96269cb43a0b0
+  checksum: 26a1eea0dde41ab99dde8b9773a013a0dc50324e5110a049f5d634e721ff08afffd54940b3974a20308d7952085ac769689369e9127dea655f868c0f6e1ab35d
   languageName: node
   linkType: hard
 
@@ -498,10 +498,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^20.8.3":
-  version: 20.8.3
-  resolution: "@types/node@npm:20.8.3"
-  checksum: bfb88b341faeb19f8fd37306a3bf433721b876c6491d10fcb0b13fd26601fa36ee45113dd82b1e1c23e3c957dff5b99f81a16493cefa03abe797e41a2487a4f7
+"@types/node@npm:^20.8.4":
+  version: 20.8.4
+  resolution: "@types/node@npm:20.8.4"
+  dependencies:
+    undici-types: ~5.25.1
+  checksum: 2106b9ef9750297cac68249428d7067c4d22c26908854165b70a164e34e900f4c34bb9bf3887c9391206b500d3e87171d03b1846e25788925236a0354390d278
   languageName: node
   linkType: hard
 
@@ -1739,6 +1741,13 @@ __metadata:
     tsc: bin/tsc
     tsserver: bin/tsserver
   checksum: 0f4da2f15e6f1245e49db15801dbee52f2bbfb267e1c39225afdab5afee1a72839cd86000e65ee9d7e4dfaff12239d28beaf5ee431357fcced15fb08583d72ca
+  languageName: node
+  linkType: hard
+
+"undici-types@npm:~5.25.1":
+  version: 5.25.3
+  resolution: "undici-types@npm:5.25.3"
+  checksum: ec9d2cc36520cbd9fbe3b3b6c682a87fe5be214699e1f57d1e3d9a2cb5be422e62735f06e0067dc325fd3dd7404c697e4d479f9147dc8a804e049e29f357f2ff
   languageName: node
   linkType: hard
 
